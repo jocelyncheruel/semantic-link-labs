@@ -330,6 +330,9 @@ from ._user_delegation_key import (
 from ._data_access_security import (
     list_data_access_roles,
 )
+from ._ui import (
+    explore_semantic_model,
+)
 from ._get_connection_string import (
     get_connection_string,
 )
@@ -604,6 +607,7 @@ __all__ = [
     "set_workspace_network_communication_policy",
     "get_connection_string",
     "list_data_access_roles",
+    "explore_semantic_model",
     "bind_semantic_model_connection",
     "unbind_semantic_model_connection",
     "list_user_defined_functions",
