@@ -25,6 +25,7 @@ license= { text = "MIT License" }
 dependencies = [
     "semantic-link-sempy>=0.14.0",
     "anytree",
+    "autoimport",
     "polib",
     "jsonpath_ng",
 ]
